@@ -1814,7 +1814,7 @@
     (property "Value" "220n 400v" (id 1) (at 118.11 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 113.3348 86.36 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT" (id 2) (at 113.3348 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 114.3 90.17 0)
@@ -2008,7 +2008,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 68.58 161.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d2e16e45-6d4a-46bd-9ebc-a353f743c593)
-    (property "Reference" "C?" (id 0) (at 72.39 159.1309 0)
+    (property "Reference" "C10" (id 0) (at 72.39 159.1309 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "470u 600v" (id 1) (at 72.39 161.6709 0)
@@ -2082,7 +2082,7 @@
     (uuid ed25f9cd-445d-4a9f-af51-0317ad1d76af)
     (property "Reference" "R8" (id 0) (at 110.49 133.35 90))
     (property "Value" "10k 2W" (id 1) (at 110.49 135.89 90))
-    (property "Footprint" "" (id 2) (at 110.49 137.922 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 110.49 137.922 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 139.7 0)
@@ -2208,7 +2208,7 @@
       (reference "C1") (unit 1) (value "220n 400v") (footprint "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT")
     )
     (path "/92ee6384-95e9-4a05-9421-6294b3081d53"
-      (reference "C2") (unit 1) (value "220n 400v") (footprint "")
+      (reference "C2") (unit 1) (value "220n 400v") (footprint "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT")
     )
     (path "/64c6b567-6f34-481a-af3b-20efa7fb7043"
       (reference "C3") (unit 1) (value "220n 400v") (footprint "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT")
@@ -2232,7 +2232,7 @@
       (reference "C9") (unit 1) (value "4n7 600v") (footprint "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT")
     )
     (path "/d2e16e45-6d4a-46bd-9ebc-a353f743c593"
-      (reference "C?") (unit 1) (value "470u 600v") (footprint "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn")
+      (reference "C10") (unit 1) (value "470u 600v") (footprint "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn")
     )
     (path "/aa2ac28d-003c-48fd-acd1-496425f21c44"
       (reference "D1") (unit 1) (value "D_Bridge_+-AA") (footprint "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm")
@@ -2265,7 +2265,7 @@
       (reference "R7") (unit 1) (value " 470k 1W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
     )
     (path "/ed25f9cd-445d-4a9f-af51-0317ad1d76af"
-      (reference "R8") (unit 1) (value "10k 2W") (footprint "")
+      (reference "R8") (unit 1) (value "10k 2W") (footprint "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
     )
     (path "/8d921e63-bec9-4a36-a0fb-640e2174fa00"
       (reference "R9") (unit 1) (value "1k5 1W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
