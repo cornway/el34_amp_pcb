@@ -1792,7 +1792,7 @@
   (symbol (lib_id "Device:Fuse") (at 186.69 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 25fbb172-8ec9-4c95-8bc3-97f4ffc44970)
-    (property "Reference" "F?" (id 0) (at 189.23 138.4299 0)
+    (property "Reference" "F3" (id 0) (at 189.23 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (id 1) (at 189.23 140.9699 0)
@@ -2024,7 +2024,7 @@
   (symbol (lib_id "Device:Fuse") (at 204.47 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6e05b8a2-376d-4b46-b83d-ba7e6ff52c0c)
-    (property "Reference" "F?" (id 0) (at 207.01 138.4299 0)
+    (property "Reference" "F4" (id 0) (at 207.01 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (id 1) (at 207.01 140.9699 0)
@@ -2043,7 +2043,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 170.18 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 72a3e0c6-7ea5-445a-8b6e-f4f233fb6743)
-    (property "Reference" "J?" (id 0) (at 171.45 146.6849 90)
+    (property "Reference" "J11" (id 0) (at 171.45 146.6849 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (id 1) (at 171.45 149.2249 90)
@@ -2224,7 +2224,7 @@
   (symbol (lib_id "Device:Fuse") (at 170.18 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a1adcb6c-db44-4b49-93cb-68ae942fb387)
-    (property "Reference" "F?" (id 0) (at 172.72 138.4299 0)
+    (property "Reference" "F2" (id 0) (at 172.72 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (id 1) (at 172.72 140.9699 0)
@@ -2294,7 +2294,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 167.64 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b5815324-6ba2-42f0-9780-104e90daf288)
-    (property "Reference" "J?" (id 0) (at 168.91 139.0649 90)
+    (property "Reference" "J10" (id 0) (at 168.91 139.0649 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (id 1) (at 168.91 141.6049 90)
@@ -2312,7 +2312,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 209.55 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b6988044-dd27-4444-9c1d-a6a06e5158f8)
-    (property "Reference" "J?" (id 0) (at 210.82 139.0649 90)
+    (property "Reference" "J14" (id 0) (at 210.82 139.0649 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (id 1) (at 210.82 141.6049 90)
@@ -2511,7 +2511,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 191.77 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e48ab2ba-f66f-4a03-9892-4352a1c7ac9f)
-    (property "Reference" "J?" (id 0) (at 193.04 139.0649 90)
+    (property "Reference" "J13" (id 0) (at 193.04 139.0649 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (id 1) (at 193.04 141.6049 90)
@@ -2635,7 +2635,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 172.72 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f0993887-d724-43e0-a22c-a1c622282bd8)
-    (property "Reference" "J?" (id 0) (at 173.99 139.0649 90)
+    (property "Reference" "J12" (id 0) (at 173.99 139.0649 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (id 1) (at 173.99 141.6049 90)
@@ -2798,14 +2798,14 @@
     (path "/e17e73e7-5b48-45cc-b42f-841c677a7b88"
       (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
     )
+    (path "/a1adcb6c-db44-4b49-93cb-68ae942fb387"
+      (reference "F2") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
+    )
     (path "/25fbb172-8ec9-4c95-8bc3-97f4ffc44970"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
+      (reference "F3") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
     )
     (path "/6e05b8a2-376d-4b46-b83d-ba7e6ff52c0c"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
-    )
-    (path "/a1adcb6c-db44-4b49-93cb-68ae942fb387"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
+      (reference "F4") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
     )
     (path "/61c97752-6da3-4341-ab98-f5445eac9c73"
       (reference "J1") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
@@ -2834,20 +2834,20 @@
     (path "/cf4cb907-09c5-445c-bc1a-bcfa92395ee9"
       (reference "J9") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
     )
-    (path "/72a3e0c6-7ea5-445a-8b6e-f4f233fb6743"
-      (reference "J?") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
-    )
     (path "/b5815324-6ba2-42f0-9780-104e90daf288"
-      (reference "J?") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+      (reference "J10") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
     )
-    (path "/b6988044-dd27-4444-9c1d-a6a06e5158f8"
-      (reference "J?") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
-    )
-    (path "/e48ab2ba-f66f-4a03-9892-4352a1c7ac9f"
-      (reference "J?") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+    (path "/72a3e0c6-7ea5-445a-8b6e-f4f233fb6743"
+      (reference "J11") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
     )
     (path "/f0993887-d724-43e0-a22c-a1c622282bd8"
-      (reference "J?") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+      (reference "J12") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+    )
+    (path "/e48ab2ba-f66f-4a03-9892-4352a1c7ac9f"
+      (reference "J13") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+    )
+    (path "/b6988044-dd27-4444-9c1d-a6a06e5158f8"
+      (reference "J14") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
     )
     (path "/83260ffb-4f0b-4387-910e-aee74b14be4e"
       (reference "P1") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_TT_P0915N")
